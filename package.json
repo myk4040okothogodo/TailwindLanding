@@ -1,0 +1,20 @@
+{
+  "name": "landing_tailwindcss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server -c-1 -p 3000",
+    "build": "tailwindcss -i ./input.css -o ./css/main.css",
+    "watch": "tailwindcss -i ./input.css -o ./css/main.css --watch"
+  },
+  "keywords": [],
+  "author": "myk_okoth",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^7.1.0",
+    "http-server": "^14.1.0",
+    "sleep-ms": "^2.0.1",
+    "tailwindcss": "^3.0.24"
+  }
+}
