@@ -1,11 +1,12 @@
 module.exports = {
-  content: ['./*.html'],
+
+  content: ['./public/*html'],
   theme: {
-    screens: {
+    screens:{
       sm: '480px',
-      md: '768px',
+      md: '760px',
       lg: '976px',
-      xl: '1440px',
+      xl: '1440px'
     },
     extend: {
       colors: {

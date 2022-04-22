@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href=" css/main.css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
     <title>Manage Landing Page</title>
   </head>
   <body>
@@ -14,7 +14,7 @@
       <div class="flex items-center justify-between">
         <!-- Logo -->
         <div class="pt-2">
-          <img src=" img/logo.svg" alt="">
+          <img src="img/logo.svg" alt="">
         </div>
         <!-- Menu Items -->
         <div class="hidden md:flex space-x-6">
@@ -28,31 +28,29 @@
         <a href="#" class=" hidden md:block p-3 px-6 pt-2 text-white bg-brightRed hidden rounded-full baseline hover:text-black" >Get Started</a>
         <!-- Hambuger Menu -->
         <button id="menu-btn" class=" block hamburger md:hidden focus:outline-none">
-          <span class="hamburger-top"></span>
-          <span class="hamburger-middle"></span>
-          <span class="hamburger-bottom"></span>          
+          <span class="Hamburger-top"></span>
+          <span class="Hamburger-middle"></span>
+          <span class="Hamburger-bottom"></span>          
         </button>
       </div>
-
       <!-- Mobile Menu -->
       <div class="md:hidden">
-        <div 
-          id="menu" 
-          class="asbolute flex flex-col items-center self-end hidden py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md">
+        <div id="menu" class="asbolute flex flex-col items-center self-end hidden py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md">
           <a href="#">Pricing</a>
           <a href="#">Product</a>
           <a href="#">About us</a>
           <a href="#">Careers </a>
           <a href="#">Community</a>
+           
+           
         </div>
+        
       </div>
     </nav> 
-
     <!-- Hero Section -->
     <section id="hero">
       <!--Flex Container -->
-      <div 
-        class="container flex flex-col-reverse md:flex-row items-center px-6 mx-auto mt-10 space-y-0 md:space-y-0">
+      <div class="container flex flex-col-reverse md:flex-row items-center px-6 mx-auto mt-10 space-y-0 md:space-y-0">
         <!-- Left item -->
         <div class="flex flex-col mb-32 space-y-12 md:w-1/2">
           <h1 class="max-w-md text-4xl font-bold text-center md:text-5xl md:text-left">
@@ -69,34 +67,28 @@
               >Get Started</a>
           </div>
         </div>
-
         <!--Image -->
         <div class="md:w-1/2">
           <img src="img/illustration-intro.svg" alt="" />
         </div>
       </div>
     </section>
-
     <!-- Features Section -->
     <section id="features">
       <!-- Flex container -->
-    
       <div class="container flex flex-col px-4 mx-auto mt-10 space-y-12 md:space-y-0 md:flex-row">
-
         <!-- Whats Different -->
         <div class="flex flex-col space-y-12 md:w-1/2">
           <h2 class="max-w-md text-4xl font-bold text-center md:text-left">
             Whats different about Manage?
           </h2>
-
           <p class="max-w-sm text-center text-darkGrayishBlue md:text-left">
             Manage provides all the functionality your team need, withouth the added complexity. Our software is tailor made for modern digital 
             product teams that are operating either remotely or in-office.
           </p>
         </div>
-
         <!-- Numbered List -->
-        <div class="flex flex-col space-y-8 md:w-1/2">
+        <div class="flex flex-col space-y-7 md:w-1/2">
             <!-- List Item 1 -->
             <div class="flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row">
               <!--Heading -->
@@ -112,19 +104,16 @@
                     </h3>
                 </div>
               </div>
-
               <div>
                 <h3 class="hidden mb-4 text-lg font-bold md:block">
                   Track company-wide progress
                 </h3>
-
                 <p class="text-darkGrayishBlue">
                   See how your day-to-day tasks fit into the wider Vision. Go from tracking progress at the milestone level all the way down to the
                   smallest of details. Never lose sight of the bigger picture again.
                 </p>
               </div>
             </div>
-
             <!-- List Item 1 -->
             <div class="flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row">
               <!--Heading -->
@@ -137,11 +126,9 @@
                   </div>
                     <h3
                      class="text-base font-bold md:mb-4 md:hidden">
-                      Advanced built-in reporting.                    
-                    </h3>
+                      Advanced built-in reporting.                    </h3>
                 </div>
               </div>
-
               <div>
                 <h3 class="hidden mb-4 text-lg font-bold md:block">
                   Advanced built-in reporting.
@@ -152,7 +139,6 @@
                 </p>
               </div>
             </div>
-
             <!-- List Item 1 -->
             <div class="flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row">
               <!--Heading -->
@@ -178,15 +164,13 @@
                 </p>
               </div>
             </div>
+
         </div>
       </div>
     </section>
-
     <!-- testimonials -->
     <section id="testimonials">
       <!-- container to heading and testm block -->
-      <div class = "max-w-6xl px-5 mx-auto mt-32 text-center">
-        <!-- Heading -->
       <h2 class="text-4xl  mt-5 font-bold text-center">
         What are users saying about manage ?
       </h2>
@@ -216,9 +200,8 @@
              " Our productivity has increased ten fold since we started using manage . We are iterating our MVP much faster."
            </p>
          </div>
-        </div>
-        <!-- Button -->
-         <div class="  my-16 ">
+         </div>
+         <div class=" justify-center my-16 ">
            <a
             href="#"
             class = "p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline hover:text-black"
@@ -226,8 +209,6 @@
          </div>
        </div>
     </section>
-
-    <!-- CTA Section -->
     <section id="cta" class="bg-brightRed">
       <!-- Flex Container -->
       <div class="container flex flex-col items-center justify-between px-6 py-24 mx-auto space-y-12 md:py-12 md:flex-row md:space-y-0">
@@ -240,9 +221,9 @@
             class = "p-3 px-6 pt-2 text-brightRed bg-white rounded-full shadow-2xl baseline hover:bg-gray-900"
             >Get Started</a>
         </div>
+   
       </div>
     </section>
-
     <!-- Footer -->
     <footer class="bg-verDarkBlue">
       <!-- Flex Container -->
@@ -253,8 +234,8 @@
             Copyright  &copy; 2022, All Rights Reserved
           </div>
         <!-- Footer logo -->
-          <div >
-           <img src="img/logo.svg" class="h-8" alt="" /> 
+          <div class="pt-2">
+           <img src="img/logo.svg" class="h-8" alt="">
          </div>
          <!-- Social Links Container -->
          <div class="flex justify-center space-x-4">
@@ -262,16 +243,16 @@
            <img src="img/icon-facebook.svg" alt="" class="h-8" />
          </a>
          <a href="#">
-           <img src=" img/icon-youtube.svg" alt="" class="h-8" />
+           <img src="img/icon-youtube.svg" alt="" class="h-8" />
          </a>
          <a href="#">
-           <img src=" img/icon-twitter.svg" alt="" class="h-8" />
+           <img src="img/icon-twitter.svg" alt="" class="h-8" />
          </a>
          <a href="#">
-           <img src=" img/icon-pinterest.svg" alt="" class="h-8" />
+           <img src="img/icon-pinterest.svg" alt="" class="h-8" />
          </a>
          <a href="#">
-           <img src=" img/icon-instagram.svg" alt="" class="h-8" />
+           <img src="img/icon-instagram.svg" alt="" class="h-8" />
          </a>
          </div>
       </div>
@@ -287,7 +268,7 @@
           <a href="#" class="hover:text-darkGrayishBlue">Careers</a>
           <a href="#" class="hover:text-darkGrayishBlue">Community</a>
           <a href="#" class="hover:text-darkGrayishBlue">Privacy Policy</a>
-        </div>
+        </div
       </div> 
       <!-- input container -->
       <div class="flex flex-col justify-between">
@@ -304,7 +285,6 @@
         <div class="hidden text-white  md:block">
         Copyright &copy; 2022 All Rights Reserved
         </div>
-      </div>
       </div>
     </footer>
     <script src="js/script.js"></script>
